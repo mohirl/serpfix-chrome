@@ -1,15 +1,26 @@
 /* Fix title font size */
-#res h3 a, #newsbox span.tl>a {
-	font-size: 16px!important;
+#res h3 a {
+	font-size: medium!important;
 }
+
+/* Fix size on cite (green) text */
+._md {
+font-size: 14px!important;
+}
+
 
 /* Fix underline on title */
 #tads a, #tadsb a, #res a, #rhs a, #taw a {
 	text-decoration: underline!important;
 }
 
-/* Fix padding between items */
-li.g {
-	margin-bottom: 15px!important;
+/* Fix text color for description */
+.s {
+	color: inherit!important;
+}
+
+/* Fix title size on news items */
+#newsbox span.tl>a[class=l] {
+font-size: 15px!important;
 }
 
